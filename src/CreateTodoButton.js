@@ -1,8 +1,9 @@
 import React from 'react';
+import './CreateTodoButton.css';
 
 function CreateTodoButton() {
   return (
-    <button style={{ borderRadius: '50%', padding: '10px' }}>
+    <button className="CreateTodoButton">
       + 
     </button>
   );
